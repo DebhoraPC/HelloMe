@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="it.polito.tdp.hellome.HelloMeController">
+<BorderPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.hellome.HelloMeController">
    <top>
       <Label text="Programma &quot; Hello Me&quot; " BorderPane.alignment="CENTER">
          <font>
@@ -26,7 +25,6 @@
                <children>
                   <TextField fx:id="txtNome" promptText="Il tuo nome..." />
                   <Button mnemonicParsing="false" onAction="#handleCiao" text="Ciao" />
-                  <Button mnemonicParsing="false" text="Button" />
                </children>
             </HBox>
             <TextArea fx:id="txtResult" editable="false" />
